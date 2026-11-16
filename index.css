@@ -66,4 +66,32 @@ line-height: 0.95;
 .menu a.atual{
     border-bottom-color:var(--fita);
 }
+.cartazes{
+margin-top:16px;
+display: flex;
+gap: 16px;
+}
+.cartaz{
+    padding: 40px; 
 
+
+}
+.cartaz-principal{
+    background-color: var(--caixa-dagua);
+    color: var(--branco);
+    flex: 2;
+}
+.cartaz-principal h1{
+font-weight: 132px;
+max-width: 9ch;
+
+}
+.cartaz-lateral{
+background-color: var(--fita);
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap:32px;
+
+}
